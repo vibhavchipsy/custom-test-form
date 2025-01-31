@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="contactform">
+        <form id="contactus_formID" class="contactus_form">
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required />
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone" required />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required />
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+                </div>
+            </div>
+            <div class="form-row submit__field">
+                <button id="formSubmitBtn" type="submit" class="primary-btn cursor_pointer">
+                    Send Message
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
